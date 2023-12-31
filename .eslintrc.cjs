@@ -13,7 +13,7 @@ module.exports = {
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    project: ['./tsconfig.json', './tsconfig.node.json', './tailwind.config.js', './postcss.config.js'],
   },
   plugins: ['react-refresh'],
   rules: {
